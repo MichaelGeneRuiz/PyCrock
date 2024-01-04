@@ -94,7 +94,7 @@ class Music(commands.Cog):
     # Finds a youtube source from the inputted information and adds it to the
     # music queue. If the bot is not playing music, start playing music.
     @commands.command(
-        name="play", help="Plays a song from Youtube via search query or link."
+        name="play", aliases=["p"], help="Plays a song from Youtube via search query or link."
     )
     async def play(self, ctx, *, url):
         if ctx.author.voice.channel == self.vc.channel:
