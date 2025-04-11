@@ -16,7 +16,8 @@ format_options = {
     "ignoreerrors": False,
     "logtostderr": False,
     "quiet": True,
-    "no_warnings": True,
+    "verbose": True,
+    "no_warnings": False,
     "default_search": "auto",
 }
 
