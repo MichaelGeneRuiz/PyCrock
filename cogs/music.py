@@ -17,7 +17,7 @@ format_options = {
     "logtostderr": False,
     "quiet": True,
     "verbose": True,
-    "no_warnings": False,
+    "no_warnings": True,
     "default_search": "auto",
 }
 
